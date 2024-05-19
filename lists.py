@@ -27,7 +27,7 @@
 # my_list3=my_list1+my_list2
 # print(my_list3)
 
-e=[1,2,3,4,5,6,7,8,9]
+e = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(e[1:5])
 print(e[2:-1])
 print(e[2::2])

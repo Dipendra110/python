@@ -17,6 +17,10 @@
 # print(total)
 
 
-e=[1,2,3,4,5,6,7,8,9]
-e.append(10)
-print(e)
+
+
+
+
+for number in range(1,11):
+    table=2*number
+    print(table)
