@@ -1,3 +1,5 @@
+from functions import first_function
+
 # a = 17
 # b = 17
 # if a > b:
@@ -37,12 +39,18 @@
 #     print("False")
 
 
-a=int(input("Enter the value of a:"))
-b=int(input("Enter the value of b:"))
-c=int(input("Enter the value of c:"))
-if a>b>c:
-    print(f"{a} is the greatest number among all")
-elif b>a>c:
-    print(f"{b} is the greatest number among all")
+# a=int(input("Enter the value of a:"))
+# b=int(input("Enter the value of b:"))
+# c=int(input("Enter the value of c:"))
+# if a>b>c:
+#     print(f"{a} is the greatest number among all")
+# elif b>a>c:
+#     print(f"{b} is the greatest number among all")
+# else:
+#     print(f"{c} is the greatest number among all")
+
+a = 3
+if a > 10:
+    print("LOL")
 else:
-    print(f"{c} is the greatest number among all")
+    print(first_function())

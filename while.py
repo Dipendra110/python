@@ -12,7 +12,8 @@
 #     print("Error")
 
 #Infinite loop
-number=5
-while number>1:
-    print(number)
-    number=number + 1
+# number=5
+# while number>1:
+#     print(number)
+#     number=number + 1
+

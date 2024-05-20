@@ -38,24 +38,22 @@
 # print(set5)
 
 
-
-set_1={"apple","google"}
-set_2={"microsoft","apple"}
-set_3=set_1.difference(set_2)
+set_1 = {"apple", "google"}
+set_2 = {"microsoft", "apple"}
+set_3 = set_1.difference(set_2)
 print(set_3)
 
-
-fruits={"Apple","Ball","Cat","kiwi"}
-basket=frozenset(fruits)
+fruits = {"Apple", "Ball", "Cat", "kiwi"}
+basket = frozenset(fruits)
 # print("Unique elements:",basket)
 #Add new fruit throws an error
 # basket.add("orange")
 # print(basket)
 
 
-city={"npj","ktm","skt"}
-place=frozenset(city)
-city_place=basket.union(place)
+city = {"npj", "ktm", "skt"}
+place = frozenset(city)
+city_place = basket.union(place)
 print(city_place)
 city_place.add("hello")
 print(city_place)
