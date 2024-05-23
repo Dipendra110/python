@@ -1,4 +1,4 @@
-from functions import first_function
+from functions import addition
 
 # a = 17
 # b = 17
@@ -49,8 +49,8 @@ from functions import first_function
 # else:
 #     print(f"{c} is the greatest number among all")
 
-a = 3
-if a > 10:
+
+if addition(a,b)>11:
     print("LOL")
 else:
-    print(first_function())
+    print("fsfs")
